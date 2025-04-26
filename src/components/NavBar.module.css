@@ -1,0 +1,18 @@
+.navRightSection {
+  width: 250px;
+  height: auto;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  align-items: center;
+}
+
+.navRightSection li a{
+  margin-right: 10px;
+  color: black;
+}
+
+.navRightSection li:nth-child(3) a{
+  background-image: url('../assets/menu-google.svg');
+}
