@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import styles from "./NavBar.module.css"
 
 export const NavBar = () => {
@@ -9,7 +10,10 @@ export const NavBar = () => {
         <ul className={styles.navRightSection}>
           {items.map((item, index) => (
             <li key={index}>
-              <a href="" className={index === 2 ? styles.iconOnly : "" }>{item}</a>
+              <a href="" className={clsx({
+                [styles.iconOnly] : index === 2,
+                [styles.photoOnly] : index === 3
+              })}>{item}</a>
             </li>
           ))}
         </ul>

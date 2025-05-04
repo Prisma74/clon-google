@@ -1,43 +1,71 @@
-html, body{
+/* reset global */
+html,
+body {
   width: 100%;
 }
-
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-
+/* contenedor de la lista */
 .navRightSection {
-  width: 250px;
-  height: auto;
+  width: 280px;
   display: flex;
-  list-style-type: none;
-  justify-content: center;
-  padding: 0;
+  justify-content: space-around;
   align-items: center;
+  list-style: none;
   font-size: 20px;
+  padding: 0;
 }
 
-.navRightSection li a{
-  margin-right: 10px;
+/* estilos genéricos de enlaces */
+.navRightSection li a {
   color: black;
+  text-decoration: none;
 }
 
-.navRightSection li:last-child a {
-  margin-right: 0px;
-}
-
-.navRightSection li:nth-child(3) a{
-  background-image: url("../assets/menu-google.svg");
+/* tercer ítem: solo icono de menú Google */
+.navRightSection li:nth-child(3) a {
+  background: url("../assets/menu-google.svg") center/contain no-repeat;
   display: inline-block;
   width: 24px;
   height: 24px;
 }
 
-.iconOnly{
+/* oculta texto y asegura overflow para el icono */
+.iconOnly {
   text-indent: -9999px;
   overflow: hidden;
 }
 
+/* último <li> como wrapper del anillo degradado */
+.navRightSection li:last-child {
+  display: inline-block; /* hace que el padding envuelva el <a> */
+  padding: 2.5px; /* grosor del “borde” */
+  border-radius: 50%; /* contenedor exterior circular */
+  background: conic-gradient(
+    from 315deg,       /* rota para centrar el rojo arriba */
+    red    0deg  90deg,
+    blue   90deg 180deg,
+    green  180deg 270deg,
+    orange 270deg 360deg
+
+  );
+}
+
+/* cuarto ítem: foto interior dentro del anillo */
+.photoOnly {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* círculo interior */
+  background: url("https://lh3.googleusercontent.com/ogw/AF2bZyguFR0aZpDYyB4cnk_X6XyhtAur3DQinxApeGqJ-i-me-NW=s32-c-mo")
+    center/cover no-repeat;
+  /* no text-indent ni overflow aquí; el <li> wrapper gestiona el borde */
+  text-indent: -9999px;
+  overflow: hidden;
+}
