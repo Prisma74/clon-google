@@ -9,7 +9,7 @@ export const NavBar = () => {
         <ul className={styles.navRightSection}>
           {items.map((item, index) => (
             <li key={index}>
-              <a href="">{item}</a>
+              <a href="" className={index === 2 ? styles.iconOnly : "" }>{item}</a>
             </li>
           ))}
         </ul>
