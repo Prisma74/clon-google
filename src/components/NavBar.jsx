@@ -10,7 +10,7 @@ export const NavBar = () => {
         <ul className={styles.navRightSection}>
           {items.map((item, index) => (
             <li key={index}>
-              <a href="" className={clsx({
+              <a href=" className={clsx({
                 [styles.iconOnly] : index === 2,
                 [styles.photoOnly] : index === 3
               })}>{item}</a>
