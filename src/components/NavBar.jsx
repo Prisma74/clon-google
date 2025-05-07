@@ -2,7 +2,7 @@ import clsx from "clsx";
 import styles from "./NavBar.module.css"
 
 export const NavBar = () => {
-  const items = ["Correo", "Imagene", "Icon", "Photo"];
+  const items = ["Correo", "Imagenes", "Icon", "Photo"];
 
   return (
     <header>
