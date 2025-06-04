@@ -11,6 +11,6 @@ if (edadUsuario >= 18) {
 }
 console.log(esEstudiante);
 if (esEstudiante) {
- mensaje += " Tienes derecho a un descuento por ser estudiante.";
+ mensaje += " ienes derecho a un descuento por ser estudiante.";
 }
 console.log(mensaje);
