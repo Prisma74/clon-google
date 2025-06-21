@@ -5,7 +5,7 @@ let mensaje = `Hola, ${nombreUsuario}`;
 mensaje +=  `Tienes ${edadUsuario} años`;
 
 if (edadUsuario >= 18) {
- mensaje += " Ers mayor de edad.";
+ mensaje += " Eres mayor de edad.";
 } else {
  mensaje += " Eres menor de edad.";
 }
