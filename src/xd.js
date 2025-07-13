@@ -2,7 +2,7 @@ let nombreUsuario ="Camilo";
 let edadUsuario = parseInt("25");
 let esEstudiante = ("si").toLowerCase() == "sí";
 let mensaje = `Hola, ${nombreUsuario}`; 
-mensaje +=  `Tienes ${edadUsuario} años`;
+mensaje +=  `Tiene ${edadUsuario} años`;
 
 if (edadUsuario >= 18) {
  mensaje += " Eres mayor de edad.";
