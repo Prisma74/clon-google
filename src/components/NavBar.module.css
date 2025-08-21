@@ -67,5 +67,5 @@ body {
     center/cover no-repeat;
   /* no text-indent ni overflow aquí; el <li> wrapper gestiona el borde */
   text-indent: -9999px;
-  overflow: hidden;
+  overflow: hidde;
 }
