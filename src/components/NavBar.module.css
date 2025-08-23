@@ -60,7 +60,7 @@ body {
 /* cuarto ítem: foto interior dentro del anillo */
 .photoOnly {
   display: block;
-  width: 30px;
+  width: 30p;
   height: 30px;
   border-radius: 50%; /* círculo interior */
   background: url("https://lh3.googleusercontent.com/ogw/AF2bZyguFR0aZpDYyB4cnk_X6XyhtAur3DQinxApeGqJ-i-me-NW=s32-c-mo")
