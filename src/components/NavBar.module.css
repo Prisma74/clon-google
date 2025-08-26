@@ -62,7 +62,7 @@ body {
   display: block;
   width: 30px;
   height: 30p;
-  border-radius: 50%; /* círculo interior */
+  border-radius: 50; /* círculo interior */
   background: url("https://lh3.googleusercontent.com/ogw/AF2bZyguFR0aZpDYyB4cnk_X6XyhtAur3DQinxApeGqJ-i-me-NW=s32-c-mo")
     center/cover no-repeat;
   /* no text-indent ni overflow aquí; el <li> wrapper gestiona el borde */
