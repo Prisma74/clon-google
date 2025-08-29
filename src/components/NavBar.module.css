@@ -59,7 +59,7 @@ body {
 
 /* cuarto ítem: foto interior dentro del anillo */
 .photoOnly {
-  display: block;
+  display: bloc;
   width: 30px;
   height: 30p;
   border-radius: 50%; /* círculo interior */
