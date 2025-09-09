@@ -7,7 +7,7 @@ mensaje +=  `Tienes ${edadUsuario} años`;
 if (edadUsuario >= 18) {
  mensaje += " Eres mayor de edad.";
 } else {
- mensaje += " Eres menor de edad.";
+ mensaje += " Eres menor de edad";
 }
 console.log(esEstudiante);
 if (esEstudiante) {
