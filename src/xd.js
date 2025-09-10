@@ -1,4 +1,4 @@
-let nombreUsuario ="Camil";
+let nombreUsuario ="Camilo";
 let edadUsuario = parseInt("25");
 let esEstudiante = ("si").toLowerCase() == "sí";
 let mensaje = `Hola, ${nombreUsuario}`; 
